@@ -1,0 +1,4 @@
+use_frameworks!
+target 'Shopping app' do
+pod 'Moltin', '~> 3.1.2'
+end

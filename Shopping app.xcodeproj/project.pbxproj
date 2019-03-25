@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B82794FB25415FC8314C8E79 /* Pods_Shopping_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474F8825A9E359EC2B130E2 /* Pods_Shopping_app.framework */; };
 		D2A462582249370000BD0517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A462572249370000BD0517 /* AppDelegate.swift */; };
 		D2A4625A2249370000BD0517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A462592249370000BD0517 /* ViewController.swift */; };
 		D2A4625D2249370000BD0517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A4625B2249370000BD0517 /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32BF786046FD1908CB14714F /* Pods-Shopping app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping app.debug.xcconfig"; path = "Target Support Files/Pods-Shopping app/Pods-Shopping app.debug.xcconfig"; sourceTree = "<group>"; };
+		4474F8825A9E359EC2B130E2 /* Pods_Shopping_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shopping_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5E1FC5D5E1A28A58AFD4F8 /* Pods-Shopping app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping app.release.xcconfig"; path = "Target Support Files/Pods-Shopping app/Pods-Shopping app.release.xcconfig"; sourceTree = "<group>"; };
 		D2A462542249370000BD0517 /* Shopping app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A462572249370000BD0517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2A462592249370000BD0517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B82794FB25415FC8314C8E79 /* Pods_Shopping_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18FF5CC3A4E9A17BD392BB81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32BF786046FD1908CB14714F /* Pods-Shopping app.debug.xcconfig */,
+				6A5E1FC5D5E1A28A58AFD4F8 /* Pods-Shopping app.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92249729BA8B3745AFB5861F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4474F8825A9E359EC2B130E2 /* Pods_Shopping_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2A4624B224936FF00BD0517 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +104,8 @@
 				D2A4626B2249370100BD0517 /* Shopping appTests */,
 				D2A462762249370100BD0517 /* Shopping appUITests */,
 				D2A462552249370000BD0517 /* Products */,
+				18FF5CC3A4E9A17BD392BB81 /* Pods */,
+				92249729BA8B3745AFB5861F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2A4627C2249370100BD0517 /* Build configuration list for PBXNativeTarget "Shopping app" */;
 			buildPhases = (
+				6CBEB1C79E27F8101B6BE399 /* [CP] Check Pods Manifest.lock */,
 				D2A462502249370000BD0517 /* Sources */,
 				D2A462512249370000BD0517 /* Frameworks */,
 				D2A462522249370000BD0517 /* Resources */,
+				304590FE1F66904A75452AAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304590FE1F66904A75452AAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shopping app/Pods-Shopping app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Moltin/moltin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/moltin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shopping app/Pods-Shopping app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBEB1C79E27F8101B6BE399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shopping app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2A462502249370000BD0517 /* Sources */ = {
@@ -430,6 +504,7 @@
 		};
 		D2A4627D2249370100BD0517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32BF786046FD1908CB14714F /* Pods-Shopping app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +522,7 @@
 		};
 		D2A4627E2249370100BD0517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A5E1FC5D5E1A28A58AFD4F8 /* Pods-Shopping app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
