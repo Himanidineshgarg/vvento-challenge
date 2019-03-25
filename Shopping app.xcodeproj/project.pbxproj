@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2A462582249370000BD0517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A462572249370000BD0517 /* AppDelegate.swift */; };
+		D2A4625A2249370000BD0517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A462592249370000BD0517 /* ViewController.swift */; };
+		D2A4625D2249370000BD0517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A4625B2249370000BD0517 /* Main.storyboard */; };
+		D2A4625F2249370100BD0517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A4625E2249370100BD0517 /* Assets.xcassets */; };
+		D2A462622249370100BD0517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A462602249370100BD0517 /* LaunchScreen.storyboard */; };
+		D2A4626D2249370100BD0517 /* Shopping_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4626C2249370100BD0517 /* Shopping_appTests.swift */; };
+		D2A462782249370100BD0517 /* Shopping_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A462772249370100BD0517 /* Shopping_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2A462692249370100BD0517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A4624C224936FF00BD0517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A462532249370000BD0517;
+			remoteInfo = "Shopping app";
+		};
+		D2A462742249370100BD0517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2A4624C224936FF00BD0517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A462532249370000BD0517;
+			remoteInfo = "Shopping app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2A462542249370000BD0517 /* Shopping app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A462572249370000BD0517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2A462592249370000BD0517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2A4625C2249370000BD0517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2A4625E2249370100BD0517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2A462612249370100BD0517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2A462632249370100BD0517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A462682249370100BD0517 /* Shopping appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A4626C2249370100BD0517 /* Shopping_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_appTests.swift; sourceTree = "<group>"; };
+		D2A4626E2249370100BD0517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2A462732249370100BD0517 /* Shopping appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2A462772249370100BD0517 /* Shopping_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_appUITests.swift; sourceTree = "<group>"; };
+		D2A462792249370100BD0517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2A462512249370000BD0517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A462652249370100BD0517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A462702249370100BD0517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2A4624B224936FF00BD0517 = {
+			isa = PBXGroup;
+			children = (
+				D2A462562249370000BD0517 /* Shopping app */,
+				D2A4626B2249370100BD0517 /* Shopping appTests */,
+				D2A462762249370100BD0517 /* Shopping appUITests */,
+				D2A462552249370000BD0517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2A462552249370000BD0517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A462542249370000BD0517 /* Shopping app.app */,
+				D2A462682249370100BD0517 /* Shopping appTests.xctest */,
+				D2A462732249370100BD0517 /* Shopping appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2A462562249370000BD0517 /* Shopping app */ = {
+			isa = PBXGroup;
+			children = (
+				D2A462572249370000BD0517 /* AppDelegate.swift */,
+				D2A462592249370000BD0517 /* ViewController.swift */,
+				D2A4625B2249370000BD0517 /* Main.storyboard */,
+				D2A4625E2249370100BD0517 /* Assets.xcassets */,
+				D2A462602249370100BD0517 /* LaunchScreen.storyboard */,
+				D2A462632249370100BD0517 /* Info.plist */,
+			);
+			path = "Shopping app";
+			sourceTree = "<group>";
+		};
+		D2A4626B2249370100BD0517 /* Shopping appTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A4626C2249370100BD0517 /* Shopping_appTests.swift */,
+				D2A4626E2249370100BD0517 /* Info.plist */,
+			);
+			path = "Shopping appTests";
+			sourceTree = "<group>";
+		};
+		D2A462762249370100BD0517 /* Shopping appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2A462772249370100BD0517 /* Shopping_appUITests.swift */,
+				D2A462792249370100BD0517 /* Info.plist */,
+			);
+			path = "Shopping appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2A462532249370000BD0517 /* Shopping app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A4627C2249370100BD0517 /* Build configuration list for PBXNativeTarget "Shopping app" */;
+			buildPhases = (
+				D2A462502249370000BD0517 /* Sources */,
+				D2A462512249370000BD0517 /* Frameworks */,
+				D2A462522249370000BD0517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shopping app";
+			productName = "Shopping app";
+			productReference = D2A462542249370000BD0517 /* Shopping app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2A462672249370100BD0517 /* Shopping appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A4627F2249370100BD0517 /* Build configuration list for PBXNativeTarget "Shopping appTests" */;
+			buildPhases = (
+				D2A462642249370100BD0517 /* Sources */,
+				D2A462652249370100BD0517 /* Frameworks */,
+				D2A462662249370100BD0517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A4626A2249370100BD0517 /* PBXTargetDependency */,
+			);
+			name = "Shopping appTests";
+			productName = "Shopping appTests";
+			productReference = D2A462682249370100BD0517 /* Shopping appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2A462722249370100BD0517 /* Shopping appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A462822249370100BD0517 /* Build configuration list for PBXNativeTarget "Shopping appUITests" */;
+			buildPhases = (
+				D2A4626F2249370100BD0517 /* Sources */,
+				D2A462702249370100BD0517 /* Frameworks */,
+				D2A462712249370100BD0517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A462752249370100BD0517 /* PBXTargetDependency */,
+			);
+			name = "Shopping appUITests";
+			productName = "Shopping appUITests";
+			productReference = D2A462732249370100BD0517 /* Shopping appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2A4624C224936FF00BD0517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Dinesh Grag";
+				TargetAttributes = {
+					D2A462532249370000BD0517 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D2A462672249370100BD0517 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D2A462532249370000BD0517;
+					};
+					D2A462722249370100BD0517 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D2A462532249370000BD0517;
+					};
+				};
+			};
+			buildConfigurationList = D2A4624F224936FF00BD0517 /* Build configuration list for PBXProject "Shopping app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2A4624B224936FF00BD0517;
+			productRefGroup = D2A462552249370000BD0517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2A462532249370000BD0517 /* Shopping app */,
+				D2A462672249370100BD0517 /* Shopping appTests */,
+				D2A462722249370100BD0517 /* Shopping appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2A462522249370000BD0517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A462622249370100BD0517 /* LaunchScreen.storyboard in Resources */,
+				D2A4625F2249370100BD0517 /* Assets.xcassets in Resources */,
+				D2A4625D2249370000BD0517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A462662249370100BD0517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A462712249370100BD0517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2A462502249370000BD0517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A4625A2249370000BD0517 /* ViewController.swift in Sources */,
+				D2A462582249370000BD0517 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A462642249370100BD0517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A4626D2249370100BD0517 /* Shopping_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A4626F2249370100BD0517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2A462782249370100BD0517 /* Shopping_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2A4626A2249370100BD0517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A462532249370000BD0517 /* Shopping app */;
+			targetProxy = D2A462692249370100BD0517 /* PBXContainerItemProxy */;
+		};
+		D2A462752249370100BD0517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2A462532249370000BD0517 /* Shopping app */;
+			targetProxy = D2A462742249370100BD0517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2A4625B2249370000BD0517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A4625C2249370000BD0517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2A462602249370100BD0517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2A462612249370100BD0517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2A4627A2249370100BD0517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2A4627B2249370100BD0517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2A4627D2249370100BD0517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shopping app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himani.Shopping-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2A4627E2249370100BD0517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shopping app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himani.Shopping-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2A462802249370100BD0517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shopping appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himani.Shopping-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopping app.app/Shopping app";
+			};
+			name = Debug;
+		};
+		D2A462812249370100BD0517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shopping appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himani.Shopping-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shopping app.app/Shopping app";
+			};
+			name = Release;
+		};
+		D2A462832249370100BD0517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shopping appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himani.Shopping-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shopping app";
+			};
+			name = Debug;
+		};
+		D2A462842249370100BD0517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shopping appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.himani.Shopping-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shopping app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2A4624F224936FF00BD0517 /* Build configuration list for PBXProject "Shopping app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A4627A2249370100BD0517 /* Debug */,
+				D2A4627B2249370100BD0517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A4627C2249370100BD0517 /* Build configuration list for PBXNativeTarget "Shopping app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A4627D2249370100BD0517 /* Debug */,
+				D2A4627E2249370100BD0517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A4627F2249370100BD0517 /* Build configuration list for PBXNativeTarget "Shopping appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A462802249370100BD0517 /* Debug */,
+				D2A462812249370100BD0517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A462822249370100BD0517 /* Build configuration list for PBXNativeTarget "Shopping appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A462832249370100BD0517 /* Debug */,
+				D2A462842249370100BD0517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2A4624C224936FF00BD0517 /* Project object */;
+}
