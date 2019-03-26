@@ -9,7 +9,9 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate,UISplitViewControllerDelegate {
+
+    static let cartID = UUID().uuidString
 
     var window: UIWindow?
 
