@@ -58,55 +58,12 @@
                     <navigationItem key="navigationItem" id="8Nq-CJ-uiB"/>
                     <connections>
                         <outlet property="collectionView" destination="0Hb-Qs-SAX" id="357-l5-x0q"/>
-                        <segue destination="cWh-V6-qla" kind="show" identifier="CategoriesToProducts" id="DM3-s1-szT"/>
+                        <segue destination="l5g-8h-8F8" kind="show" identifier="DetailToCart" id="7XH-Sh-50t"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgG-9X-HXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="340" y="-332"/>
-        </scene>
-        <!--Title-->
-        <scene sceneID="EZi-G2-Pac">
-            <objects>
-                <viewController id="cWh-V6-qla" customClass="DetailViewController" customModule="Shopping_app" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="43b-7V-ULS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Sec-kv-XCS">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="jEM-11-Gmb">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells/>
-                                <connections>
-                                    <outlet property="dataSource" destination="cWh-V6-qla" id="CTN-sS-M2B"/>
-                                    <outlet property="delegate" destination="cWh-V6-qla" id="6ds-nK-suG"/>
-                                </connections>
-                            </collectionView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Sec-kv-XCS" firstAttribute="top" secondItem="ZQT-6o-dSD" secondAttribute="top" id="1XD-nu-QRP"/>
-                            <constraint firstItem="Sec-kv-XCS" firstAttribute="trailing" secondItem="ZQT-6o-dSD" secondAttribute="trailing" id="3Ej-Cc-O6v"/>
-                            <constraint firstItem="Sec-kv-XCS" firstAttribute="leading" secondItem="ZQT-6o-dSD" secondAttribute="leading" id="m31-Eo-yWA"/>
-                            <constraint firstItem="ZQT-6o-dSD" firstAttribute="bottom" secondItem="Sec-kv-XCS" secondAttribute="bottom" id="xPs-8W-8EN"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="ZQT-6o-dSD"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Title" id="kiK-WL-FVS"/>
-                    <connections>
-                        <outlet property="collectionView" destination="Sec-kv-XCS" id="vZ1-hw-bU0"/>
-                        <segue destination="l5g-8h-8F8" kind="show" identifier="DetailToCart" id="8lT-IV-oXy"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B2U-ki-zOJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1137" y="-332"/>
+            <point key="canvasLocation" x="281" y="-301"/>
         </scene>
         <!--Cart-->
         <scene sceneID="oTY-4p-Yjm">
@@ -116,9 +73,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WcI-Ya-G2D">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WcI-Ya-G2D">
                                 <rect key="frame" x="0.0" y="64" width="375" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="l5g-8h-8F8" id="4Rm-c2-4VI"/>
                                     <outlet property="delegate" destination="l5g-8h-8F8" id="9Ya-CE-is0"/>
@@ -149,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bUQ-sc-GL3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1913" y="-332"/>
+            <point key="canvasLocation" x="1060" y="-344"/>
         </scene>
     </scenes>
 </document>

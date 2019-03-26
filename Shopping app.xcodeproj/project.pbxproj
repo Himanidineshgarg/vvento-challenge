@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B82794FB25415FC8314C8E79 /* Pods_Shopping_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4474F8825A9E359EC2B130E2 /* Pods_Shopping_app.framework */; };
 		D2A462582249370000BD0517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A462572249370000BD0517 /* AppDelegate.swift */; };
-		D2A4625A2249370000BD0517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A462592249370000BD0517 /* ViewController.swift */; };
 		D2A4625F2249370100BD0517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A4625E2249370100BD0517 /* Assets.xcassets */; };
 		D2A462622249370100BD0517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A462602249370100BD0517 /* LaunchScreen.storyboard */; };
 		D2A4626D2249370100BD0517 /* Shopping_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4626C2249370100BD0517 /* Shopping_appTests.swift */; };
@@ -19,7 +18,6 @@
 		D2A463012249DCF200BD0517 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A463002249DCF200BD0517 /* ProductCollectionViewCell.swift */; };
 		D2A463032249DD0200BD0517 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A463022249DD0200BD0517 /* CategoryCollectionViewCell.xib */; };
 		D2A463052249DD0F00BD0517 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A463042249DD0F00BD0517 /* ProductCollectionViewCell.xib */; };
-		D2A463072249DD1E00BD0517 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A463062249DD1E00BD0517 /* DetailViewController.swift */; };
 		D2A463092249DD2B00BD0517 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A463082249DD2B00BD0517 /* MasterViewController.swift */; };
 		D2A4630B2249DD3800BD0517 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4630A2249DD3800BD0517 /* CategoryCollectionViewCell.swift */; };
 		D2A4630D2249DD4400BD0517 /* CustomProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A4630C2249DD4400BD0517 /* CustomProduct.swift */; };
@@ -53,7 +51,6 @@
 		6A5E1FC5D5E1A28A58AFD4F8 /* Pods-Shopping app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shopping app.release.xcconfig"; path = "Target Support Files/Pods-Shopping app/Pods-Shopping app.release.xcconfig"; sourceTree = "<group>"; };
 		D2A462542249370000BD0517 /* Shopping app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A462572249370000BD0517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2A462592249370000BD0517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2A4625E2249370100BD0517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2A462612249370100BD0517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2A462682249370100BD0517 /* Shopping appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopping appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +64,6 @@
 		D2A463002249DCF200BD0517 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		D2A463022249DD0200BD0517 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		D2A463042249DD0F00BD0517 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
-		D2A463062249DD1E00BD0517 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		D2A463082249DD2B00BD0517 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		D2A4630A2249DD3800BD0517 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		D2A4630C2249DD4400BD0517 /* CustomProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProduct.swift; sourceTree = "<group>"; };
@@ -147,11 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				D2A462572249370000BD0517 /* AppDelegate.swift */,
-				D2A462592249370000BD0517 /* ViewController.swift */,
 				D2A4630C2249DD4400BD0517 /* CustomProduct.swift */,
 				D2A462FE2249DCE200BD0517 /* ProductCategory.swift */,
 				D2A463022249DD0200BD0517 /* CategoryCollectionViewCell.xib */,
-				D2A463062249DD1E00BD0517 /* DetailViewController.swift */,
 				D2A463102249DD5900BD0517 /* UIImageView.swift */,
 				D2A463122249DD6E00BD0517 /* Main.storyboard */,
 				D2A4630A2249DD3800BD0517 /* CategoryCollectionViewCell.swift */,
@@ -371,10 +365,8 @@
 			files = (
 				D2A4630D2249DD4400BD0517 /* CustomProduct.swift in Sources */,
 				D2A4630B2249DD3800BD0517 /* CategoryCollectionViewCell.swift in Sources */,
-				D2A4625A2249370000BD0517 /* ViewController.swift in Sources */,
 				D2A462FB2249DCA200BD0517 /* CartViewController.swift in Sources */,
 				D2A463012249DCF200BD0517 /* ProductCollectionViewCell.swift in Sources */,
-				D2A463072249DD1E00BD0517 /* DetailViewController.swift in Sources */,
 				D2A463112249DD5900BD0517 /* UIImageView.swift in Sources */,
 				D2A462582249370000BD0517 /* AppDelegate.swift in Sources */,
 				D2A463092249DD2B00BD0517 /* MasterViewController.swift in Sources */,
